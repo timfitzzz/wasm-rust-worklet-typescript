@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wasm-rust-worklet-typescript/static/css/main.b476ab52.chunk.css",
+    "main.js": "/wasm-rust-worklet-typescript/static/js/main.cf4c075e.chunk.js",
+    "main.js.map": "/wasm-rust-worklet-typescript/static/js/main.cf4c075e.chunk.js.map",
+    "runtime-main.js": "/wasm-rust-worklet-typescript/static/js/runtime-main.10cafa56.js",
+    "runtime-main.js.map": "/wasm-rust-worklet-typescript/static/js/runtime-main.10cafa56.js.map",
+    "static/js/2.32647472.chunk.js": "/wasm-rust-worklet-typescript/static/js/2.32647472.chunk.js",
+    "static/js/2.32647472.chunk.js.map": "/wasm-rust-worklet-typescript/static/js/2.32647472.chunk.js.map",
+    "static/js/3.1ee741d4.chunk.js": "/wasm-rust-worklet-typescript/static/js/3.1ee741d4.chunk.js",
+    "static/js/3.1ee741d4.chunk.js.map": "/wasm-rust-worklet-typescript/static/js/3.1ee741d4.chunk.js.map",
+    "b2992b298ba9f157c00b.worklet.js": "/wasm-rust-worklet-typescript/b2992b298ba9f157c00b.worklet.js",
+    "b2992b298ba9f157c00b.worklet.js.map": "/wasm-rust-worklet-typescript/b2992b298ba9f157c00b.worklet.js.map",
+    "index.html": "/wasm-rust-worklet-typescript/index.html",
+    "static/css/main.b476ab52.chunk.css.map": "/wasm-rust-worklet-typescript/static/css/main.b476ab52.chunk.css.map",
+    "static/js/2.32647472.chunk.js.LICENSE.txt": "/wasm-rust-worklet-typescript/static/js/2.32647472.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10cafa56.js",
+    "static/js/2.32647472.chunk.js",
+    "static/css/main.b476ab52.chunk.css",
+    "static/js/main.cf4c075e.chunk.js"
+  ]
+}
