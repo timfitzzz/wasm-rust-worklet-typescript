@@ -1,5 +1,5 @@
 {
-  "name": "wasm-guitar-tuner",
+  "name": "wasm-rust-worklet-typescript",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,15 +10,24 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/text-encoding": "^0.0.36",
+    "@types/webaudioapi": "^0.0.27",
+    "global": "^4.4.0",
+    "raw-loader": "^4.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-markdown": "^7.0.1",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "requirejs": "^2.3.6",
+    "text-encoding": "^0.7.0",
+    "typescript": "^4.3.5",
+    "wasm-tuner": "file:./public/wasm-tuner",
+    "web-vitals": "^1.0.1",
+    "worklet-loader": "^2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "shx cp ./README.md ./src/README.md && react-scripts start",
+    "build": "shx cp ./README.md ./src/README.md && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "shx": "^0.3.3"
   }
 }
